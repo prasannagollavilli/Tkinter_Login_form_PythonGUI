@@ -36,7 +36,7 @@ email_input.pack()
 pass_label = Label(root, text='Enter pwd', font=("Arial", 16), fg='white', bg='#0096DC')
 pass_label.pack(fill="x")
 
-pass_input=Entry(root, width=50)
+pass_input=Entry(root, width=50,show="*")
 pass_input.pack()
 
 Login_btn=Button(root,text='Login here',bg='white',fg='black',command=handle_login)
