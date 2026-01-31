@@ -23,7 +23,8 @@ img=Image.open('flipkart-logo-39911.png')
 resized_img=img.resize((200,100))
 img=ImageTk.PhotoImage(resized_img)
 img_label=Label(root, image=img)
-img_label.pack(pady=(10,0))
+img_label.pack(pady=(10,10))
+#added pading
 text_label = Label(root, text='Flipkart', font=("Arial", 16), fg='white',bg='#0096DC')
 text_label.pack()
 
